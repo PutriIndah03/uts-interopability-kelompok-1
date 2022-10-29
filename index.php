@@ -34,7 +34,7 @@ $data = json_decode($konten, true);
         $i = 0;
         foreach ($data ['data'] as $key => $row) if ($i < 30) { ?>
           
-        <div class="col-3 mt-3">
+        <div class="col-sm-4">
         <div class="card shadow-lg" style="width: 18rem, margin= 2px;">
         <?php foreach ($row['image'] as $item) { ?>
             <img src="<?= $item ?>" class="card-img-top" alt="...">
